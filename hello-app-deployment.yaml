@@ -14,8 +14,8 @@ spec:
       labels:
         app: hello-app
     spec:
-      nodeSelector:
-        type: backend
+      #nodeSelector:
+      #  type: backend
       containers:
         - name: hello-app
           image: hello-app:v.01
