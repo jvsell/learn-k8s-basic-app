@@ -12,5 +12,5 @@ func main() {
 	// Listen to all request to port 8080.
 }
 func Hello(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, `Hello world`)
+	fmt.Fprintf(w, `How are you?`)
 }

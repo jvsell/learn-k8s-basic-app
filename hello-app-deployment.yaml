@@ -18,6 +18,6 @@ spec:
       #  type: backend
       containers:
         - name: hello-app
-          image: jvsell/hello-app:v.01
+          image: jvsell/hello-app:v.02
           ports:
             - containerPort: 8080
